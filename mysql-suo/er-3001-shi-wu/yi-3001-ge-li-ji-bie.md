@@ -16,7 +16,16 @@ SQL标准中规定了四种隔离级别，较低的级别通常可以执行更�
 
 ### 三、REPATABLE READ（可重复读）
 
-
-
 四、SERIALIZABLE（可串行化）
+
+
+
+| 隔离级别 | 脏读可能性 | 不可重复读可能性 | 幻读可能性 | 加锁读 |
+| :--- | :--- | :--- | :--- | :--- |
+| READ UNCOMMITTED | yes | yes | yes | no |
+| READ COMMITTED | no | yes | yes | no |
+| REPATABLE READ | no | no | yes | no |
+| SERIALIZABLE | no | no | no | yes |
+
+
 
