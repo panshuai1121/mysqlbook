@@ -20,13 +20,13 @@
 3、UPDATE checking SET balance = balance-100.00 WHERE customer_id = 987123;
 4、UPDATE savings SET balnace = balance + 200.00 WHERE customer_id = 987123;
 5、COMMIT；
-
-
 ```
 
 ## ACID
 
 原子性（atomicity）：
+
+一个事务必须被视为一个不可分割的最小单元，整个事务中所有的操作要么提交成功，要么全部回滚对于一个事务，对事物来说不能只执行其中的一部分就是事务的原子性。
 
 一致性（consistency）：
 
