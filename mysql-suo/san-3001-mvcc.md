@@ -4,5 +4,7 @@ MVCC \(Multiversion Concurrency Control\),即多版本并发控制技术,它使�
 
 Innodb的MVCC，是通过在每行记录后边保存了两个隐藏的列来实现的，这两个列，一个保存了行的创建时间，一个保存行得过期时间（或删除时间），注意这个时间并不是时间值，而是系统版本号。每一个事务开始，系统版本号会自动递增。
 
-MVCC 只在 REPATABLE READ ， READ COMMITED 两个级别下工作。
+**MVCC 只在 REPATABLE READ ， READ COMMITED 两个级别下工作。**
+
+
 
