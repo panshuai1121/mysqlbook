@@ -35,9 +35,11 @@ INNODB XtraDB 通过多版本并发控制，MVCC 解决了幻读问题
 | REPATABLE READ | no | no | yes | no |
 | SERIALIZABLE | no | no | no | yes |
 
-
-
 ## 五、设置隔离级别
+
+```
+mysql> SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;
+```
 
 
 
