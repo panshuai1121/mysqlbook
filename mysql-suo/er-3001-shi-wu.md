@@ -12,6 +12,18 @@
 
 这三个步骤也就是事务，如果失败时则全部失败，必须回滚所有步骤。
 
+```
+#可以使用START TRANSACTION 开始一个事务，然后使用COMMIT提交事务将修改的数据持久保留，要么使用ROLLBACK撤回所有得修改
+
+1、START TRANSCRTION
+2、SELECT balace FROM checking WHERE customer_id = 987123;
+3、UPDATE checking SET balance = balance-100.00 WHERE customer_id = 987123;
+4、UPDATE savings SET balnace = balance + 200.00 WHERE customer_id = 987123;
+5、COMMIT；
+
+
+```
+
 ## ACID
 
 原子性（atomicity）：
