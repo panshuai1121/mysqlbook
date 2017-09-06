@@ -16,6 +16,8 @@
   * [一、mysql 锁](mysql-suo/yi-3001-mysql-suo.md)
     * [1、读写锁](mysql-suo/yi-3001-mysql-suo/13001-du-xie-suo.md)
     * [2、锁粒度](mysql-suo/yi-3001-mysql-suo/23001-suo-li-du.md)
-    * 3、表锁
-    * 4、行级锁
+    * [3、表锁](mysql-suo/yi-3001-mysql-suo/33001-biao-suo.md)
+    * [4、行级锁](mysql-suo/yi-3001-mysql-suo/43001-xing-ji-suo.md)
+    * 5、死锁
+  * [二、事务](mysql-suo/er-3001-shi-wu.md)
 
