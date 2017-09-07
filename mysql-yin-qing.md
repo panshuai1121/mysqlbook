@@ -48,3 +48,7 @@ Index\_length：索引的大小（字节为单位）
 
 Data\_free:对于MyISAM表，表示已分配但目前没有使用的空间，这部分空间包括了之前删除的行，以及后续可以被INSERT利用到的空间。
 
+Auto\__increment :下一个AUTO_\_INCREMENT的值
+
+
+
