@@ -12,3 +12,14 @@ MyISAM会将表数据存储在两个文件：数据文件和索引文件。分�
 
 
 
+    CREATE TABLE `weather` (
+      `id` int(10) unsigned NOT NULL,
+      `content` longtext NOT NULL,     #这个数据类型加上下面的设置，可以导入超大文本数据        
+      PRIMARY KEY (`id`)
+    ) ENGINE=MyISAM DEFAULT CHARSET=utf8 MAX_ROWS=750000 AVG_ROW_LENGTH=19000;
+
+
+    alter table weather max_rows = 200000000000 avg_row_length = 50;
+
+
+
