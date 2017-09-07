@@ -26,5 +26,9 @@ Max_data_length: 281474976710655
 1 row in set (0.00 sec)
 ```
 
+Name：表名
+
+Engine：表的存储引擎类型，在旧版本里 该字段叫type。
+
 
 
