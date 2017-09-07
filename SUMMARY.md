@@ -16,6 +16,8 @@
 * Mysql 集群
 * [Mysql 优化](mysql-you-hua.md)
   * [一、性能优化](mysql-you-hua/yi-3001-xing-neng-you-hua.md)
+    * [1.1 Xhprof](mysql-you-hua/yi-3001-xing-neng-you-hua/xhprof.md)
+    * 1.2 IFP
 * [Mysql 并发处理](mysql-suo.md)
   * [一、mysql 锁](mysql-suo/yi-3001-mysql-suo.md)
     * [1、读写锁](mysql-suo/yi-3001-mysql-suo/13001-du-xie-suo.md)
