@@ -32,7 +32,7 @@ Engine：表的存储引擎类型，在旧版本里 该字段叫type。
 
 Version：版本号
 
-Row\_format：行的格式，MyISAM表 可选的值为Dynamic，Fixed或者Compressed，Dynamic的行长度是可变的，一般包含可变长度的字段，如vachar 或BlOB。Fixed的行长度则是固定的，只包含长度的列，如char 和INTEGER 。Copressed的行只在压缩表中存在
+Row\_format：行的格式，MyISAM表 可选的值为Dynamic，Fixed或者Compressed，Dynamic的行长度是可变的，一般包含可变长度的字段，如vachar 或BlOB。Fixed的行长度则是固定的，只包含长度的列，如char 和INTEGER 。Copressed的行只在压缩表中存在。
 
-
+Rows：
 
