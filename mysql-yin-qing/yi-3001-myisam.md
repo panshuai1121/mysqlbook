@@ -21,5 +21,9 @@ MyISAM会将表数据存储在两个文件：数据文件和索引文件。分�
 
     alter table weather max_rows = 200000000000 avg_row_length = 50;
 
+执行表的修复可能会导致一些数据丢失，而且修复速度非常慢。
 
+CHECK TABLE mytable 检查
+
+REPAIR TABLE mytable 进行修复
 
