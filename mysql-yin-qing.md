@@ -30,5 +30,7 @@ Name：表名
 
 Engine：表的存储引擎类型，在旧版本里 该字段叫type。
 
+Version：版本号
 
+Row\_format：行的格式，MyISAM表 可选的值为Dynamic，Fixed或者Compressed，Dynamic的行长度是可变的，一般包含可变长度的字段，如vachar 或BlOB。
 
