@@ -10,6 +10,8 @@ MyISAM会将表数据存储在两个文件：数据文件和索引文件。分�
 
 **要改变MySAIM表的指针长度（高或低）可以通过修改表的MAX\_ROWS 和AVG\_ROW\_LENGTH选项的值来实现，两者相乘就是表可能达到的最大大小，修改者两个参数会导致整个表的索引重建，可能需要很长时间完成**
 
+---
+
     CREATE TABLE `weather` (
       `id` int(10) unsigned NOT NULL,
       `content` longtext NOT NULL,     #这个数据类型加上下面的设置，可以导入超大文本数据        
