@@ -1,5 +1,9 @@
 ## Mysql 存储引擎
 
+在考虑存储引擎除非要用到某些InnoDB不具备的特性，默认都使用InnoDB作为存储引擎。
+
+
+
 可以使用SHOW TABLE STATUS LIKE ‘表名’ 进行查看。
 
 ```
