@@ -40,5 +40,7 @@ Rows：
 
 Avg\__row\_length: 平均每行包含的字节数。_
 
+Data\_length：表数据的大小（以字节单位）
+
 
 
