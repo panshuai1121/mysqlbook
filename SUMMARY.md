@@ -3,7 +3,7 @@
 * [书籍简介](README.md)
 * [Mysql 简介](mysql-jian-jie.md)
 * [Mysql 存储引擎](mysql-yin-qing.md)
-  * 一、MyISAM
+  * [一、MyISAM](mysql-yin-qing/yi-3001-myisam.md)
   * [二、InnoDB](mysql-yin-qing/er-3001-innodb.md)
 * Mysql 建库
 * Mysql 建表
