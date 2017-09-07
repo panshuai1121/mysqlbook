@@ -12,8 +12,6 @@
 
 4、特有的特性
 
-
-
 可以使用SHOW TABLE STATUS LIKE ‘表名’ 进行查看。
 
 ```
