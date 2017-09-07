@@ -50,5 +50,11 @@ Data\_free:对于MyISAM表，表示已分配但目前没有使用的空间，这
 
 Auto\__increment :下一个AUTO_\_INCREMENT的值
 
+Create\_time:表创建的时间
+
+Update\_time:表数据最后修改的时间
+
+Check\_time:使用CKECK TABLE 命令或者myisamchk工具最后一次检查表的时间
+
 
 
