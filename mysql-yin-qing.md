@@ -58,3 +58,9 @@ Check\_time:使用CKECK TABLE 命令或者myisamchk工具最后一次检查表�
 
 Collation：表的默认字符集和字符列排序规则
 
+Checksum：如果启动，保存是整个表的实时校验和
+
+Create\_options:创建表时指定的其他选项
+
+Comment：该列包含了一些其他信息，对于MyISAM表，保存的是创建时带的注释，对于InnoDB 保存的是innoDB表空间的剩余空间信息，如果是一个视图，则该列包含“VIEW”的文本字样
+
