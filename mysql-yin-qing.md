@@ -56,5 +56,5 @@ Update\_time:表数据最后修改的时间
 
 Check\_time:使用CKECK TABLE 命令或者myisamchk工具最后一次检查表的时间
 
-
+Collation：表的默认字符集
 
