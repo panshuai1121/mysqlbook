@@ -42,5 +42,9 @@ Avg\__row\_length: 平均每行包含的字节数。_
 
 Data\_length：表数据的大小（以字节单位）
 
+Max\__data\_length: 表数据的最大容量，该值跟存储引擎有关系_
 
+Index\_length：索引的大小（字节为单位）
+
+Data\_free:对于MyISAM表，表示已分配但目前没有使用的空间，这部分空间包括了之前删除的行，以及后续可以被INSERT利用到的空间。
 
