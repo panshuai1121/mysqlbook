@@ -36,3 +36,5 @@ Row\_format：行的格式，MyISAM表 可选的值为Dynamic，Fixed或者Compr
 
 Rows：
 
+表中的行数，对于MyISAM和其他的一些存储引擎，该值是精确的，对于Innodb 来说该值是预估值。
+
